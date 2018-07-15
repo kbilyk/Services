@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AA05EFA20FB318F00017DE2 /* OrderItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA05EF220FB318F00017DE2 /* OrderItem+CoreDataClass.swift */; };
+		1AA05EFB20FB318F00017DE2 /* OrderItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA05EF320FB318F00017DE2 /* OrderItem+CoreDataProperties.swift */; };
+		1AA05EFC20FB318F00017DE2 /* Service+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA05EF420FB318F00017DE2 /* Service+CoreDataClass.swift */; };
+		1AA05EFD20FB318F00017DE2 /* Service+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA05EF520FB318F00017DE2 /* Service+CoreDataProperties.swift */; };
+		1AA05EFE20FB318F00017DE2 /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA05EF620FB318F00017DE2 /* Order+CoreDataClass.swift */; };
+		1AA05EFF20FB318F00017DE2 /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA05EF720FB318F00017DE2 /* Order+CoreDataProperties.swift */; };
+		1AA05F0020FB318F00017DE2 /* Customer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA05EF820FB318F00017DE2 /* Customer+CoreDataClass.swift */; };
+		1AA05F0120FB318F00017DE2 /* Customer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA05EF920FB318F00017DE2 /* Customer+CoreDataProperties.swift */; };
+		1AA05F0520FB330D00017DE2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA05F0420FB330D00017DE2 /* CoreDataManager.swift */; };
 		1AA6418F20F9D8E600E83307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA6418E20F9D8E600E83307 /* AppDelegate.swift */; };
 		1AA6419120F9D8E600E83307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA6419020F9D8E600E83307 /* ViewController.swift */; };
 		1AA6419420F9D8E600E83307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA6419220F9D8E600E83307 /* Main.storyboard */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AA05EF220FB318F00017DE2 /* OrderItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1AA05EF320FB318F00017DE2 /* OrderItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1AA05EF420FB318F00017DE2 /* Service+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1AA05EF520FB318F00017DE2 /* Service+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1AA05EF620FB318F00017DE2 /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1AA05EF720FB318F00017DE2 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1AA05EF820FB318F00017DE2 /* Customer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1AA05EF920FB318F00017DE2 /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1AA05F0420FB330D00017DE2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		1AA6418B20F9D8E600E83307 /* Services.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Services.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA6418E20F9D8E600E83307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AA6419020F9D8E600E83307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +55,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AA05F0220FB31A700017DE2 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				1AA05EF920FB318F00017DE2 /* Customer+CoreDataProperties.swift */,
+				1AA05EF720FB318F00017DE2 /* Order+CoreDataProperties.swift */,
+				1AA05EF320FB318F00017DE2 /* OrderItem+CoreDataProperties.swift */,
+				1AA05EF520FB318F00017DE2 /* Service+CoreDataProperties.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		1AA05F0320FB31B200017DE2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1AA05EF820FB318F00017DE2 /* Customer+CoreDataClass.swift */,
+				1AA05EF620FB318F00017DE2 /* Order+CoreDataClass.swift */,
+				1AA05EF220FB318F00017DE2 /* OrderItem+CoreDataClass.swift */,
+				1AA05EF420FB318F00017DE2 /* Service+CoreDataClass.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		1AA6418220F9D8E600E83307 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				1AA6419520F9D8E600E83307 /* Services.xcdatamodeld */,
+				1AA05F0320FB31B200017DE2 /* Classes */,
+				1AA05F0220FB31A700017DE2 /* Properties */,
+				1AA05F0420FB330D00017DE2 /* CoreDataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,9 +206,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA05EFF20FB318F00017DE2 /* Order+CoreDataProperties.swift in Sources */,
+				1AA05F0120FB318F00017DE2 /* Customer+CoreDataProperties.swift in Sources */,
+				1AA05EFD20FB318F00017DE2 /* Service+CoreDataProperties.swift in Sources */,
 				1AA6419120F9D8E600E83307 /* ViewController.swift in Sources */,
 				1AA6418F20F9D8E600E83307 /* AppDelegate.swift in Sources */,
 				1AA6419720F9D8E600E83307 /* Services.xcdatamodeld in Sources */,
+				1AA05F0520FB330D00017DE2 /* CoreDataManager.swift in Sources */,
+				1AA05F0020FB318F00017DE2 /* Customer+CoreDataClass.swift in Sources */,
+				1AA05EFE20FB318F00017DE2 /* Order+CoreDataClass.swift in Sources */,
+				1AA05EFC20FB318F00017DE2 /* Service+CoreDataClass.swift in Sources */,
+				1AA05EFB20FB318F00017DE2 /* OrderItem+CoreDataProperties.swift in Sources */,
+				1AA05EFA20FB318F00017DE2 /* OrderItem+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
