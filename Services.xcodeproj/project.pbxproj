@@ -22,6 +22,7 @@
 		1AA6419720F9D8E600E83307 /* Services.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AA6419520F9D8E600E83307 /* Services.xcdatamodeld */; };
 		1AA6419920F9D8E600E83307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA6419820F9D8E600E83307 /* Assets.xcassets */; };
 		1AA6419C20F9D8E600E83307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA6419A20F9D8E600E83307 /* LaunchScreen.storyboard */; };
+		1AF4BF3721033C8600644785 /* CustomersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4BF3621033C8600644785 /* CustomersTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		1AA6419820F9D8E600E83307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AA6419B20F9D8E600E83307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AA6419D20F9D8E600E83307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF4BF3621033C8600644785 /* CustomersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				1AA6419020F9D8E600E83307 /* ViewController.swift */,
+				1AF4BF3621033C8600644785 /* CustomersTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				1AA6419120F9D8E600E83307 /* ViewController.swift in Sources */,
 				1AA6418F20F9D8E600E83307 /* AppDelegate.swift in Sources */,
 				1AA6419720F9D8E600E83307 /* Services.xcdatamodeld in Sources */,
+				1AF4BF3721033C8600644785 /* CustomersTableViewController.swift in Sources */,
 				1AA05F0520FB330D00017DE2 /* CoreDataManager.swift in Sources */,
 				1AA05F0020FB318F00017DE2 /* Customer+CoreDataClass.swift in Sources */,
 				1AA05EFE20FB318F00017DE2 /* Order+CoreDataClass.swift in Sources */,

@@ -17,28 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let customer = Customer()
-        customer.name = "Customer Five"
-
-        if let name = customer.name {
-            print("name = \(name)")
-
-            CoreDataManager.sharedInstance.saveContext()
-
-            let fetchRequest = NSFetchRequest<Customer>(entityName: NSStringFromClass(Customer.self))
-            do {
-                let customers = try CoreDataManager.sharedInstance.persistentContainer.viewContext.fetch(fetchRequest)
-
-                for customer in customers {
-                    print("name = \(customer.name ?? "<No Name>")")
-                }
-            } catch {
-                print(error)
-            }
-        } else {
-            print("Can't get name value!")
-        }
-
+       
         return true
     }
 

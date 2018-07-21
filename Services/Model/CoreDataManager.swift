@@ -20,6 +20,17 @@ class CoreDataManager {
         return NSEntityDescription.entity(forEntityName: entityName, in: CoreDataManager.sharedInstance.persistentContainer.viewContext)!
     }
 
+    // Fetched Results Controller for Entity Name
+    func fetchedResultsController(entityName: String, keyForSort: String) -> NSFetchedResultsController<NSFetchRequestResult> {
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entityName)
+        let sortDescriptor = NSSortDescriptor(key: keyForSort, ascending: true)
+        fetchRequest.sortDescriptors = [sortDescriptor]
+        let fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest,
+                                                                  managedObjectContext: CoreDataManager.sharedInstance.persistentContainer.viewContext,
+                                                                  sectionNameKeyPath: nil, cacheName: nil)
+        return fetchedResultsController
+    }
+
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {
