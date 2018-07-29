@@ -95,8 +95,12 @@ class CustomerViewController: UIViewController {
     // MARK: - Actions
 
     @IBAction func cancel(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
     }
 
     @IBAction func save(_ sender: UIBarButtonItem) {
+        if saveCustomer() {
+            dismiss(animated: true, completion: nil)
+        }
     }
 }
